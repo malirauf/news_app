@@ -1,16 +1,25 @@
-# news_app
+# News App
 
-A new Flutter project.
+A news app built with Flutter, leveraging clean architecture principles, state management, and modern Flutter tools. The app enables users to browse the latest news articles, view detailed content, and manage their favorite articles.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- List of News Articles: 
+Browse the latest articles from a news API.
 
-A few resources to get you started if this is your first Flutter project:
+- News Article Detail: 
+View full content and details of selected articles.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Favorites Screen: 
+Save and manage favorite articles for quick access.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture and Technologies
+This project is developed following Flutter Clean Architecture with separation of concerns and modularity in mind. Here’s a breakdown of the key technologies and patterns used:
+
+- Equatable
+- BLoC (Business Logic Component)
+- Floor
+- Flutter Clean Architecture
+- Dependency Injection
+- Dio for Networking with Error Handling
+- Retrofit
